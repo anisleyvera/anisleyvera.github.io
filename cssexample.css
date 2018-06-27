@@ -1,0 +1,45 @@
+/*below applies to whole webpage*/
+*{
+  font-size: 20px;
+  background-color: beige;
+}
+h1{
+  font-size: 28px;
+  font-style: italic;
+}
+
+/*below applies only to div tag*/
+p{
+  margin-top: 50px;
+  margin-left: 40px;
+  border-style: dotted;
+  border-color: orange;
+}
+#colorful {
+  color: orange;
+}
+/*alert box*/
+.alert {
+    padding: 20px;
+    background-color: blue;
+    color: white;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+img:hover{
+  height: 500px;
+  width: auto;
+}
